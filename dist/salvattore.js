@@ -384,7 +384,7 @@ self.next_element_column_index = function next_element_column_index(grid, fragme
     // get used height
     colsHeight[i] = self.get_height_from_element(children[i]);
     // get probably used height
-    Array.prototype.forEach.call(fragments[i].children, get_possible_height);
+    Array.prototype.forEach.call(fragments[i].childNodes, get_possible_height);
   }
   minColHeight = Math.min.apply(Math, colsHeight);
   // we assume height were available if we have something
@@ -396,7 +396,7 @@ self.next_element_column_index = function next_element_column_index(grid, fragme
   // otherwise, previous method fallback
   for (i = 0; i < m; i++) {
     child = children[i];
-    currentRowCount = child.children.length + fragments[i].children.length;
+    currentRowCount = child.children.length + fragments[i].childNodes.length;
     if(lowestRowCount === 0) {
       lowestRowCount = currentRowCount;
     }
