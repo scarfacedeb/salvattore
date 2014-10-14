@@ -1,9 +1,12 @@
 Salvattore
 ==========
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/rnmp/salvattore?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![](http://files.bandd.co/zQf5+)](http://salvattore.com/)
 
 Salvattore is a library agnostic JS script that will help you organize your HTML elements according to the number of columns you specify, like jQuery Masonry.
+
+NOTE: If you jump into any trouble during a time-sensitive implementation, feel free to email rolando@bandd.co. We do not guarantee an immediate response but it would definitively be faster than using the issue tracker.
 
 Features
 --------
@@ -24,3 +27,7 @@ You can also [follow us](http://twitter.com/salvattorejs) on Twitter.
 How to contribute
 -----------------
 We use Grunt to add polyfills and minify the script in the `dist/` folder. To make changes to the script itself, please edit `src/salvattore.js` and send us a pull request.
+
+### Share feedback & ideas
+You can even contribute by using Salvattore and sharing bugs, ideas or solutions on the Issues page.
+Protip: if you're posting a bug please share all the relevant data and ideally a live URL so that we can debug (yeah we do that!)
