@@ -552,12 +552,11 @@ self.init = function init() {
 };
 
 
-self.init();
-
 return {
   append_elements: self.append_elements,
   prepend_elements: self.prepend_elements,
-  register_grid: self.register_grid
+  register_grid: self.register_grid,
+  init: self.init
 };
 
 })(window, window.document);
